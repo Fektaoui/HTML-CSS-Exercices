@@ -2,7 +2,7 @@
 
 Introduction
 
-What is HTML?
+     What is HTML?
         HTML stands for Hyper Text Markup Language
         HTML is the standard markup language for creating Web pages
         HTML describes the structure of a Web page
@@ -11,7 +11,7 @@ What is HTML?
         HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 
 
-What is CSS?
+     What is CSS?
         CSS stands for Cascading Style Sheets
         CSS describes how HTML elements are to be displayed on screen, paper, or in other media
         CSS saves a lot of work. It can control the layout of multiple web pages all at once
