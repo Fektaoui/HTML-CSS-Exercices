@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>EX08</title>
+    </head>
+    <body>
+        <h1>Dresseur de pok&eacute;mon</h1>
+        <p>Les champs marqu&eacute;s d'une <b>*</b> sont obligatoires.</p>
+        <form>
+            <fieldset>
+                <legend>Nouveau dresseur</legend>
+                <label for="nom">Nom *</label><br>
+                <input type="text" name="nom" id="nom" /><br>
+                <br>
+                <label for="description">Description</label><br>
+                <textarea name="description" rows="3"></textarea><br>
+                <br>
+                <label for="équipe">&Eacute;quipe</label><br>
+                <input type="radio" name="equipe" value="rouge" id="c-rouge" /> Rouge<br>
+                <input type="radio" name="equipe" value="jaune" id="c-jaune" /> Jaune<br>
+                <input type="radio" name="equipe" value="bleu" id="c-bleu" /> Bleu<br>
+                <br>
+                <label>Anniversaire *</label><br>
+                <input type="date" name="date" id="date" placeholder="jj/mm/aaaa" /><br>
+                <br>
+                <input type="submit" id="validation" name="validation" value="Envoyer" />
+            </fieldset>
+        </form>
+    </body>
+</html>
