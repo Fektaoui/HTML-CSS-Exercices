@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>EX09</title>
+    </head>
+    <body>
+        <h1>Paiement en ligne</h1>
+        <form>
+            <h2>1/ Identit&eacute;</h2>
+            <fieldset>
+                <label for="prénom">Pr&eacute;nom :</label>
+                <input type="text" name="prénom" id="prénom" /><br><br>
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" required="required"/><br><br>
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" /><br><br>
+            </fieldset>
+            <h2>2/ Adresse</h2>
+            <fieldset>
+                <label for="adresse">Adresse :</label>
+                <input type="text" name="adresse" id="adresse" /><br><br>
+                <label for="postal">Code postal :</label>
+                <input type="text" name="code" id="code" /><br><br>
+                <label for="ville">Ville :</label>
+                <input type="text" name="ville" id="ville" /><br><br>
+            </fieldset>
+            <h2>3/ Informations de paiement</h2>
+            <fieldset>
+                <label for="paiement">Type de paiement :</label>
+                <input type="radio" name="paiement" value="bitcoin" id="p-bitcoin" /> <img src="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX09/html-bitcoin.png" /> Bitcoin
+                <input type="radio" name="paiement" value="mastercard" id="p-mastercard" /> <img src="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX09/html-mastercard.png" /> Mastercard
+                <input type="radio" name="paiement" value="visa" id="p-visa" /> <img src="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX09/html-visa.png" /> Visa<br><br>
+                <label for="carte bancaire">Num&eacute;ro de la carte bancaire :</label>
+                <input type="text" name="bancaire" id="bancaire" /><br><br>
+                <label for="porte">Nom du porte de la carte bancaire :</label>
+                <input type="text" name="porte" id="porte" /><br><br>
+                <label for="nom">Code de s&eacute;curit&eacute; :</label>
+                <input type="text" name="codesuc" id="codesuc" /><br><br>
+            </fieldset>
+            <h2>4/ Confirmation</h2>
+            <fieldset>
+                <input type="checkbox" name="accepte" id="accepte" /> J'accepte les <a href="#">CGV</a><br><br>
+                <input type="submit" id="validation" name="validation" value="Envoyer" />
+            </fieldset>
+        </form>
+    </body>
+</html>
