@@ -1,0 +1,108 @@
+body {
+    background-color: aqua;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: navy;
+}
+
+h4 {
+    color: red;
+    text-decoration: underline;
+}
+
+#nav {
+    float: left;
+    margin-top: 60px;
+    width: 300px;
+}
+
+a:link {
+    color: navy;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: navy;
+    color: gray;
+    text-decoration: underline;
+}
+
+a:visited,:active {
+    color: red;
+    text-decoration: underline;
+}
+
+#main {
+    float: left;
+    background-color: white;
+    width: 900px;
+    padding: 1em;
+    border-left: 1px solid black;
+    border-bottom: 1px dotted;
+}
+
+#main p::first-letter {
+    color: red;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 2em;
+}
+
+p {
+    text-align: justify;
+    word-spacing: 1em;
+}
+
+table {
+    border: 2px solid #696969;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+th, td {
+    border: 1px dotted black;
+}
+
+th {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.sem1 {
+    text-transform: capitalize;
+}
+
+.sem1, .sem3 {
+    text-align: left;
+    background-color: yellow;
+}
+
+.sem2, .sem4 {
+    text-align: center;
+    background-color: lime;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+ul ul {
+    list-style-type: square;
+}
+
+#presentation {
+    background-image: url(rose2.jpg);
+    background-repeat: repeat-y;
+    background-position: bottom right;
+}
