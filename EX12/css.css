@@ -1,0 +1,31 @@
+#header {
+    text-align: center;
+ }
+ #header img {
+    height: 50px;
+ }
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+p, ul, #header {
+    border: 1px solid blue;
+    background-color: gray;
+    padding: 15px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+
+th {
+    background-color: gray;
+    text-transform: uppercase;
+    text-align: center;
+}
