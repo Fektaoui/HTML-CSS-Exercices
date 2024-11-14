@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4c4e00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+}
+
+#blocmenu {
+    background-color: #666600;
+    width: 20%;
+    display: inline;
+    float: left;
+    padding: 100px;
+    padding-top: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#contenu {
+    background-color: #eaeae9;
+    width: 80%;
+    float: left;
+    padding: 104px 70px;
+}
+
+#pied {
+    background-color: #eeee00;
+    text-align: center;
+    padding: 20px;
+}
