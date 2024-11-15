@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+video {
+    border: 1px solid blue;
+    width: 33%;
+    padding: 8px;
+}
+
+p{
+    color: gray;
+    font-size: 10px;
+    font-style: italic;
+}
