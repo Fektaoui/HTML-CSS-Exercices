@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+#yellow {
+    background-color: #FCD116;
+    height: 266px;
+}
+
+#blue {
+    background-color: #003893;
+    height: 133px;
+}
+
+#red {
+    background-color: #CE1126;
+    height: 133px;
+}
+
+#text {
+    text-align: center;
+}
+
