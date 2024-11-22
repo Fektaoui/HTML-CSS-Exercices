@@ -1,0 +1,40 @@
+body {
+    background-color: #5C94FC;
+    text-align: center;
+}
+
+#contour {
+    border: 5px solid black;
+    height: 615px;
+    width: 50%;
+}
+
+#b1 {
+    background-color: #4976C9;
+    height: 150px;
+    width: 25%;
+    border-right: 5px black solid;
+}
+
+#b2 {
+    background-color: #375897;
+    height: 150px;
+    width: 50%;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#b3 {
+    background-color: #243B64;
+    height: 150px;
+    width: 75%;
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#b4 {
+    background-color: #121D32;
+    height: 150px;
+    width: 100%;
+    border-top: 5px black solid;
+}
