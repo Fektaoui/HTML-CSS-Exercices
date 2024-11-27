@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 20%;
+    height: 270px;
+    margin: auto;
+}
+
+table, td{
+    border: 2px double whitesmoke;
+}
+
+.noir{
+    background-color: black;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.vert{
+    background-color: green;
+}
+
+.marron{
+    background-color: brown;
+}
+
+.blanc{
+    background-color: white;
+}
+
+.rouge{
+    background-color: red;
+}
