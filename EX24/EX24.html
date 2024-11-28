@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EX24</title>
+        <link rel="stylesheet" href="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX24/css.css">
+    </head>
+    <body>
+        <h1>Machine &agrave; calculer avec html5</h1>
+        <fieldset id="f1">
+            <legend>Les donn&eacute;es</legend>
+            <p>Cliquer sur le bouton "Al&eacute;atoire" pour tirer</p>
+            <ul>
+                <li>le nombre 1 entre -10 et 10 :</li>
+                <li>le nombre B parmi 2, 4, 5, 8, 10, 16, 20 et 25 via <span>une variable de type tableau</span></li>
+            </ul>
+            <label for="A">A=</label>
+            <input type="number" id="vert">
+            <label for="B">B=</label>
+            <input type="number" id="vert">
+            <input type="submit" value="Al&eacute;atoire">
+        </fieldset>
+        <fieldset id="f2">
+            <legend>Votre solution</legend>
+            <table>
+                <tr>
+                    <td id="rouge"><label>A+B</label></td>
+                    <td><input type="text" id="vert"></td>
+                </tr>
+                <tr>
+                    <td id="rouge"><label>A-B</label></td>
+                    <td><input type="text" id="vert"></td>
+                </tr>
+                <tr>
+                    <td id="rouge"><label>A*B</label></td>
+                    <td><input type="text" id="vert"></td>
+                </tr>
+                <tr>
+                    <td id="rouge"><label>A/B</label></td>
+                    <td><input type="text" id="vert"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="V&eacute;rifier"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset id="f3">
+            <legend>La correction</legend>
+            <table>
+                <tr>
+                    <td><label>A+B =</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>A-B =</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>A*B =</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>A/B =</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Correction"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

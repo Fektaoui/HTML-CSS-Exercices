@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(27, 240, 222);
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    background-color: rgb(247, 247, 157);
+}
+
+legend{
+    border: 3px dashed red;
+    border-bottom: none;
+    background-color: rgb(247, 247, 157);
+}
+
+p{
+    margin-left: 40px;
+}
+
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#f1 label{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(27, 240, 222);
+    border-radius: 13px;
+    margin-left: 20px;
+    padding: 3px 10px;
+    padding-left: 50px;
+}
+
+#f2, #f3{
+    display: inline;
+    margin: auto;
+    width: 48%;
+}
+
+table{
+    border: 5px solid black;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+td{
+    border-bottom: 2px solid black;
+    width: 45%;
+    text-align: center;
+}
+
+#vert{
+    background-color: rgb(130, 240, 130);
+}
+
+#rouge{
+    background-color: rgb(255, 0, 212);
+    color: green;
+}
+
+#f3 input[type="text"]{
+    background-color: rgb(247, 247, 157);
+    border: none;
+}
