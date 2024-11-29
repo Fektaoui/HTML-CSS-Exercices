@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+table{
+    border: 5px solid black;
+    margin: auto;
+    width: 20%;
+    height: 200px;
+    border-spacing: 0;
+}
+
+td{
+    border: 0.5px solid black;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#t2 td{
+    border-bottom: 5px solid black;
+}
+
+#td2{
+    border-right: 5px solid black;
+}
+
+input{
+    border: 5px outset gray;
+    background-color: yellow;
+    color: red;
+    padding: 3px 50px;
+    font-weight: bold;
+}
+
+#in2{
+    color: blue;
+    padding: 3px 25px;
+}
