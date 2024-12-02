@@ -1,0 +1,51 @@
+body{
+    background-image: url(fond.jpg);
+}
+
+fieldset{
+    padding: 50px;
+    border: none;
+}
+
+label{
+    color: red;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+input{
+    margin: 20px 5px;
+}
+
+input[type="text"]{
+    width: 25%;
+}
+
+input[name="adresse"]{
+    width: 85%;
+}
+
+input[name="ville"], input[name="email"]{
+    width: 60%;
+}
+
+select{
+    background-color: gray;
+    border: 1px outset gray;
+    padding: 3px 2px;
+}
+
+textarea{
+    width: 40%;
+    height: 80px;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+input[type="submit"], input[type="reset"]{
+    border: 1px solid gray;
+    color: green;
+    padding: 7px 2px;
+}

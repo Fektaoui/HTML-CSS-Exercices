@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EX26</title>
+        <link rel="stylesheet" href="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX26/css.css">
+    </head>
+    <body>
+        <fieldset>
+            <input type="radio" name="sexe" value="M"><label>M.</label>
+            <input type="radio" name="sexe" value="Mme" checked="checked"><label>Mme</label>
+            <input type="radio" name="sexe" value="Mlle"><label>Mlle</label><br>
+            <label for="nom">Nom : </label><input type="text" name="nom">
+            <label for="prenom">Pr&eacute;nom : </label><input type="text" name="prenom">
+            <label for="societe">Soci&eacute;t&eacute; : </label><input type="text" name="societe"><br>
+            <label for="adresse">N&deg; et rue : </label><input type="text" name="adresse" class="jaune"><br>
+            <label for="adresse">Code Postal : </label><input type="number" class="jaune">
+            <label for="adresse">Ville : </label><input type="text" name="ville" class="jaune">
+            <select size="1">
+                <option value="france" selected="selected">France</option>
+                <option value="angleterre">Angleterre</option>
+                <option value="australie">Australie</option>
+                <option value="maroc">Maroc</option>
+                <option value="japon">Japon</option>
+                <option value="usa">USA</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="canada">Canada</option>
+                <option value="autre">Autre</option>
+            </select><br>
+            <label for="message">Votre Message </label><textarea name="commentaire" ></textarea><br>
+            <label for="email">Adresse E-Mail </label><input type="email" name="email"><br>
+            <input type="submit" value="Valider"><input type="reset" value="Effacer">
+        </fieldset>
+    </body>
+</html>
