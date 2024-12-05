@@ -1,0 +1,41 @@
+div{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: auto;
+    width: 35%;
+    height: 250px;
+    padding: 40px;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-top: 4px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 4px;
+}
+
+input:valid {
+    background-color: #d4edda;
+}
+
+input:invalid {
+    background-color: #f8d7da;
+}
+
+input[type="submit"]{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background-color: #28a745;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #218838;
+}
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EX29</title>
+        <link rel="stylesheet" href="C:\Users\PC\Desktop\GitHub\HTML & CSS Exercices\EX29/css.css">
+    </head>
+    <body>
+        <div>
+            <h2>Formulaire d'authentification</h2>
+            <form action="#" method="post">
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required pattern=".+@oudev\.net" title="L'email doit se terminer par oudev.net"><br>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" required pattern="(?=.*\d)[A-Za-z\d]{6,8}" title="le mot de passe doit contenir entre 6 et 8 caractères, dont au moins un chiffre"><br>
+                <input type="submit" value="Connexion" required>
+            </form>
+        </div>
+    </body>
+</html>
