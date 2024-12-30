@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 30px;
+    background: black;
+    border-radius: 10px;
+    transition: 3s;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+div:hover{
+    height: 500px;
+}
