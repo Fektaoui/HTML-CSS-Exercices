@@ -1,0 +1,45 @@
+.carre{
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    padding-top: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.tube{
+    margin: auto;
+    width: 30px;
+    height: 200px;
+    border: 1px solid black;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+.balle{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    animation-name: balle;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes balle{
+    0% {top : 0px;}
+    10% {transform: translateY(165px);}
+    20% {transform: translateY(30px);}
+    30% {transform: translateY(165px);}
+    40% {transform: translateY(60px);}
+    50% {transform: translateY(165px);}
+    60% {transform: translateY(90px);}
+    70% {transform: translateY(165px);}
+    80% {transform: translateY(110px);}
+    100% {transform: translateY(165px);}
+}
